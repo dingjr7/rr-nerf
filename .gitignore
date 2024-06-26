@@ -1,0 +1,11 @@
+*__pycache__/
+build*/
+.vscode/
+.idea/
+*.cpython*
+data/
+img/
+*.bin
+lib/dependencies/tiny-cuda-nn
+lib/dependencies/pybind11
+lib/dependencies/eigen
