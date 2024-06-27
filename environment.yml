@@ -1,0 +1,17 @@
+name: rr
+channels:
+  - conda-forge
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - jaxlib=0.4.20=*cuda*
+  - jax=0.4.20
+  - scipy=1.12.0
+  - dm-haiku
+  - optax
+  - cuda-nvcc
+  - imageio
+  - toml
+  - tqdm
